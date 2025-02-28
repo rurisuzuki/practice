@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Challenge: The boxer model</title>
+    <style>
+      html,
+      body {
+        font-family: Arial, sans-serif;
+        background-color: white;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+      .main {
+        border: solid 1px green;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+      .header {
+        border: solid 4px red;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .content {
+        border: solid 4px rgb(34, 0, 255);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .nav-item {
+        display: inline-block;
+        margin: 20px;
+        background: rgb(184, 184, 219);
+        padding: 10px;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      }
+
+      .nav-item:hover {
+        background-color: rgb(33, 202, 33);
+        box-shadow: none;
+      }
+
+      .button {
+        background-color: #303134;
+        border: 1px solid #303134;
+        border-radius: 4px;
+        color: #e8eaed;
+        font-family: Helvetica Neue, sans-serif;
+        font-size: 14px;
+        margin: 11px 4px;
+        padding: 0 16px;
+        line-height: 27px;
+        height: 36px;
+        min-width: 54px;
+        text-align: center;
+        cursor: pointer;
+      }
+
+      .button:hover {
+        box-shadow: 0 1px 3px rgba(23, 23, 23, 0.24);
+        background-color: #303134;
+        border: 1px solid #5f6368;
+        color: #e8eaed;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div>
+        <div class="nav-item">About</div>
+        <div class="nav-item">Store</div>
+      </div>
+      <div>
+        <div class="nav-item">Gmail</div>
+        <div class="nav-item">Images</div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="content">
+        <div>Google</div>
+        <input />
+        <div class="search-buttons">
+          <button class="button">search</button>
+          <button class="button">feeling lucky</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

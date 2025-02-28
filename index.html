@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imagin One (Full Design)</title>
+    <style>
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+        margin: 0px;
+      }
+
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+      }
+      .header {
+        font-size: x-small;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        background: #1f2937;
+        padding: 10px 40px;
+      }
+      .nav {
+        display: flex;
+        gap: 10px;
+      }
+      .feature-content h1 {
+        font-size: 20px;
+        color: white;
+        margin: 0px 0px;
+      }
+      .feature-content p {
+        font-size: 10px;
+        color: white;
+        margin: 0px 0px;
+      }
+      .feature {
+        background-color: #1f2937;
+        display: flex;
+        /* border: 2px solid red; */
+      }
+      .feature-content {
+        margin: 20px 20px;
+        padding: 20px;
+      }
+
+      .feature-image {
+        margin: 20px;
+        margin-right: 40px;
+        width: 550px;
+        height: 150px;
+      }
+      .signin {
+        background-color: #3c82f6;
+        color: aliceblue;
+        padding: 3px 15px;
+        border-radius: 5px;
+        margin-top: 5px;
+        border: none;
+      }
+      h2 {
+        text-align: center;
+        font-size: 15px;
+      }
+
+      .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+      }
+
+      .card {
+        width: 65px;
+      }
+      .box {
+        height: 65px;
+        /* width: 65px; */
+        width: 100%;
+        border: 1.9px solid #3c82f6;
+        border-radius: 5px;
+      }
+
+      .description {
+        font-size: 10px;
+        text-align: center;
+        margin-top: 0px;
+      }
+      .third-section {
+        background-color: #e5e7ea;
+        padding: 20px 90px;
+        margin-top: 30px;
+        margin-bottom: 40px;
+      }
+      .third-section p {
+        padding-top: 30px;
+      }
+      h3 {
+        font-size: 15px;
+        text-align: right;
+        padding-bottom: 30px;
+      }
+      .fourth-section {
+        display: flex;
+        background-color: #3c82f6;
+        margin: 0px 90px;
+        font-size: x-small;
+        padding: 5px 20px;
+        flex-wrap: wrap;
+      }
+      .action {
+        padding: 5px 15px;
+        color: #e5e7ea;
+      }
+      h4 {
+        margin-bottom: 0px;
+        margin-top: 20px;
+      }
+      .action p {
+        margin-top: 0px;
+      }
+      .action-sign {
+        background-color: #3c82f6;
+        color: aliceblue;
+        border-radius: 5px;
+        border: 1px solid;
+        padding: 3px 15px;
+        white-space: nowrap;
+      }
+      .button {
+        padding-top: 20px;
+        padding-left: 10px;
+      }
+      .fifth-section {
+        background-color: #1f2936;
+        margin-top: 30px;
+      }
+      .fifth-section p {
+        color: #e5e7ea;
+        padding: 10px 10px;
+        text-align: center;
+        font-size: x-small;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="logo">Header Logo</div>
+        <div class="nav">
+          <div class="linkone">header link one</div>
+          <div class="linktwo">header link two</div>
+          <div class="linkthree">header link three</div>
+        </div>
+      </div>
+      <div class="feature">
+        <div class="feature-content">
+          <h1>This website is awesome</h1>
+          <p>
+            This website has some subtext that goes here under the main title.
+            It's a smaller font and the color is lower contrast
+          </p>
+          <button class="signin">sign in</button>
+        </div>
+        <img class="feature-image" src="feature.jpg" />
+      </div>
+      <div calss="second-section">
+        <h2>Some random infomation</h2>
+        <div class="cards">
+          <div class="card">
+            <div class="box white"></div>
+            <div class="description">
+              this is some subtext under an illustration or image
+            </div>
+          </div>
+          <div class="card">
+            <div class="box white"></div>
+            <div class="description">
+              this is some subtext under an illustration or image
+            </div>
+          </div>
+          <div class="card">
+            <div class="box white"></div>
+            <div class="description">
+              this is some subtext under an illustration or image
+            </div>
+          </div>
+          <div class="card">
+            <div class="box white"></div>
+            <div class="description">
+              this is some subtext under an illustration or image
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="third-section">
+        <p>
+          This is an inspiring quote, or a testimonial from a customer. Maybe
+          it's just filling up space, or maybe people will actually read it. Who
+          knows? All I know is that it looks nice.
+        </p>
+        <h3>-Thor, God of Thunder</h3>
+      </div>
+      <div class="fourth-section">
+        <div class="action">
+          <h4>Call to action! It's time!</h4>
+          <p>
+            Sign up for our product by clicking that button right over there!
+          </p>
+        </div>
+        <div class="button">
+          <button class="action-sign">sign in</button>
+        </div>
+      </div>
+      <div class="fif-section">
+        <p>copyright © The Odin Project 2021</p>
+      </div>
+    </div>
+  </body>
+</html>
